@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Participe deste projeto</title>
+    <meta
+      name="description"
+      content="Landing page para participação em um projeto voltado à agricultura sustentável e inovação."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#top" class="brand" aria-label="Início do projeto">
+          <span class="brand-mark">🌱</span>
+          <span>AgroConecta</span>
+        </a>
+        <nav class="site-nav" aria-label="Navegação principal">
+          <a href="#sobre">Sobre</a>
+          <a href="#como-participar">Como participar</a>
+          <a href="#contato">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Projeto de impacto para o campo</p>
+            <h1>Participe deste projeto e ajude a transformar a agricultura.</h1>
+            <p class="hero-text">
+              Conectamos produtores, tecnologia e conhecimento para criar soluções mais
+              sustentáveis, eficientes e acessíveis para o futuro do agro.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#contato">Quero participar</a>
+              <a class="btn btn-secondary" href="#como-participar">Ver como funciona</a>
+            </div>
+            <ul class="hero-highlights" aria-label="Benefícios principais">
+              <li>Mais produtividade</li>
+              <li>Menos desperdício</li>
+              <li>Impacto real na comunidade</li>
+            </ul>
+          </div>
+          <div class="hero-card" aria-label="Resumo do projeto">
+            <div class="hero-card-top">
+              <span class="status-pill">Em andamento</span>
+              <span class="status-pill muted">+120 participantes</span>
+            </div>
+            <h2>Uma iniciativa pensada para fortalecer a cadeia agrícola</h2>
+            <p>
+              O projeto reúne produtores, extensionistas e parceiros para levar conhecimento,
+              tecnologia e novas oportunidades para o campo.
+            </p>
+            <div class="metrics">
+              <div>
+                <strong>18</strong>
+                <span>regiões</span>
+              </div>
+              <div>
+                <strong>92%</strong>
+                <span>de satisfação</span>
+              </div>
+              <div>
+                <strong>4.8/5</strong>
+                <span>avaliação</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="sobre">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Por que participar</p>
+            <h2>Um projeto com foco em resultado, aprendizagem e transformação.</h2>
+          </div>
+          <div class="cards-grid">
+            <article class="info-card">
+              <h3>Conhecimento prático</h3>
+              <p>Aprenda com especialistas e tenha acesso a conteúdos aplicados ao dia a dia da produção.</p>
+            </article>
+            <article class="info-card">
+              <h3>Rede de apoio</h3>
+              <p>Conecte-se com produtores, pesquisadores e parceiros que compartilham objetivos semelhantes.</p>
+            </article>
+            <article class="info-card">
+              <h3>Inovação no campo</h3>
+              <p>Explore soluções que ajudam a otimizar processos, reduzir custos e fortalecer a renda.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="como-participar">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Como funciona</p>
+            <h2>Participar é simples e pode acontecer de várias formas.</h2>
+          </div>
+          <div class="steps-grid">
+            <article class="step-card">
+              <span class="step-number">01</span>
+              <h3>Cadastre-se</h3>
+              <p>Preencha seus dados e diga um pouco sobre seu perfil ou interesse no projeto.</p>
+            </article>
+            <article class="step-card">
+              <span class="step-number">02</span>
+              <h3>Escolha sua forma de atuação</h3>
+              <p>Você pode participar como produtor, parceiro, voluntário ou colaborador institucional.</p>
+            </article>
+            <article class="step-card">
+              <span class="step-number">03</span>
+              <h3>Entre para a comunidade</h3>
+              <p>Receba atualizações, participe de encontros e contribua para expandir o impacto.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contato">
+        <div class="container contact-grid">
+          <div>
+            <p class="eyebrow">Contato</p>
+            <h2>Quer fazer parte dessa transformação?</h2>
+            <p>
+              Envie sua mensagem e entraremos em contato com mais informações sobre como participar.
+            </p>
+          </div>
+          <form class="contact-form">
+            <label>
+              Nome
+              <input type="text" placeholder="Seu nome" />
+            </label>
+            <label>
+              E-mail
+              <input type="email" placeholder="seu@email.com" />
+            </label>
+            <label>
+              Mensagem
+              <textarea rows="4" placeholder="Conte um pouco sobre seu interesse"></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> AgroConecta. Todos os direitos reservados.</p>
+        <a href="#top">Voltar ao topo</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
